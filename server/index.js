@@ -8,7 +8,7 @@ Connection();
 
 const io = new Server(PORT, {
     cors: {
-        origin: 'https://google-docs-clone-kappa-nine.vercel.app',
+        origin: 'https://google-docs1.netlify.app',
         methods: ['GET', 'POST']
     }
 });
