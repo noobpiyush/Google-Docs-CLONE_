@@ -8,7 +8,7 @@ Connection();
 
 const io = new Server(PORT, {
     cors: {
-        origin: '',
+        origin: 'https://google-docs-clone-kappa-nine.vercel.app',
         methods: ['GET', 'POST']
     }
 });
