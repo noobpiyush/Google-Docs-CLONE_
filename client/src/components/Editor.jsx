@@ -47,7 +47,7 @@ const Editor = () => {
     }, []);
 
     useEffect(() => {
-        const socketServer = io('http://3.108.193.169:9000');
+        const socketServer = io('http://localhost:5000');
         setSocket(socketServer);
 
         return () => {
