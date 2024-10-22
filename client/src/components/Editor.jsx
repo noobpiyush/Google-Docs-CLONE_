@@ -47,7 +47,7 @@ const Editor = () => {
     }, []);
 
     useEffect(() => {
-        const socketServer = io('http://localhost:5000');
+        const socketServer = io('https://google-docs-clone-txhf.onrender.com');
         setSocket(socketServer);
 
         return () => {
